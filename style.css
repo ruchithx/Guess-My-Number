@@ -5,4 +5,111 @@
 }
 body {
   list-style: 1;
+  background-color: rgb(31, 30, 30);
+  color: white;
+  font-family: "Press Start 2P", sans-serif;
+}
+.main {
+  padding: 20px;
+}
+header {
+  height: 14rem;
+  position: relative;
+  border-bottom: 2px solid white;
+  margin-bottom: 70px;
+}
+h1 {
+  position: absolute;
+  left: 350px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.btn {
+  background-color: white;
+  letter-spacing: 1px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Press Start 2P", sans-serif;
+}
+.btn-again {
+  padding: 15px 40px;
+  height: 80px;
+}
+
+.paragraph {
+  font-size: 20px;
+  position: absolute;
+  right: 8px;
+  top: 6px;
+}
+.guess-box {
+  width: 140px;
+  height: 110px;
+  background-color: white;
+  /* text-align: center; */
+  padding: 15px 30px;
+  font-size: 80px;
+  position: absolute;
+  bottom: -45px;
+  left: 550px;
+  color: rgba(39, 38, 38, 0.642);
+}
+
+.massage {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.label-score {
+  font-size: 25px;
+}
+.label-highscore {
+  font-size: 25px;
+  font-weight: bold;
+}
+main {
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  justify-content: first baseline;
+}
+.number {
+  height: 90px;
+  width: 250px;
+  background-color: rgb(31, 30, 30);
+  border: 2px solid white;
+  font-size: 50px;
+
+  text-align: center;
+}
+.btn-check {
+  padding: 15px 30px;
+  width: 150px;
+  margin: 20px 40px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  width: 300px;
+}
+.right {
+  /* margin-right: 900px; */
+  width: 500px;
+}
+.massage {
+  margin-bottom: 60px;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+}
+.label-score {
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+}
+.icon {
+  margin-right: 10px;
+}
+.label-highscore {
+  letter-spacing: 1.5px;
+  font-size: 20px;
 }
