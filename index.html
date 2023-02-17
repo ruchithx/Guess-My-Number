@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="style.css"></script>
     <title>Guess My Number</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <div></div>
+    <div class="main">
+      <header>
+        <button class="btn btn-again">Again!</button>
+        <h1>Guess My Number!</h1>
+        <div class="guess-box">?</div>
+        <p class="paragraph">(Between 1 to 20)</p>
+      </header>
+      <main>
+        <section class="left">
+          <input type="number" class="number" />
+          <button class="btn btn-check">Check</button>
+        </section>
+        <section class="right">
+          <p class="massage">Start guessing...</p>
+          <p class="label-score">
+            <span class="icon">💯</span> Score: <span class="score">20</span>
+          </p>
+          <p class="label-highscore">
+            <span class="icon">🥇</span> Highscore:
+            <span class="highscore"> 0</span>
+          </p>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
