@@ -46,7 +46,7 @@ h1 {
   width: 140px;
   height: 110px;
   background-color: white;
-  /* text-align: center; */
+
   padding: 15px 30px;
   font-size: 80px;
   position: absolute;
@@ -93,7 +93,6 @@ main {
   width: 300px;
 }
 .right {
-  /* margin-right: 900px; */
   width: 500px;
 }
 .massage {
