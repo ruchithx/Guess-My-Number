@@ -49,8 +49,8 @@ h1 {
   height: 110px;
   background-color: white;
 
-  padding: 15px 30px;
-  font-size: 80px;
+  padding: 25px 30px;
+  font-size: 40px;
   position: absolute;
   bottom: -45px;
   left: 550px;
@@ -80,8 +80,9 @@ main {
   background-color: rgb(31, 30, 30);
   border: 2px solid white;
   font-size: 50px;
-
+  color: white;
   text-align: center;
+  font-family: "Press Start 2P", sans-serif;
 }
 .btn-check {
   padding: 15px 30px;
@@ -100,7 +101,7 @@ main {
 .massage {
   margin-bottom: 60px;
   letter-spacing: 1.5px;
-  font-size: 25px;
+  font-size: 20px;
 }
 .label-score {
   margin-bottom: 20px;
